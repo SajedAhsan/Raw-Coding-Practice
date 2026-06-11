@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;         
+}
+.done:hover {
+    background-color: #07e007;
+}
+.delete:hover {
+    background-color: red;
+}
+
+.done {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+#tasks {
+    width: 400px;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+
+#tasks thead {
+    background-color: yellow;
+}
+
+#tasks thead th {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+#tasks tbody tr {
+    background-color: black;
+    color: white;
+}
+
+
+#tasks td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    color: aliceblue;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#tasks button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
